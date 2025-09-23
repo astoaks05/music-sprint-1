@@ -1,10 +1,11 @@
-# DevSprint Song Recommendation Web App Stubs
+# DevSprint Stubs:
+# Song Recommendation Web App
 
 ## Program Context
 - ACM Introduces: the DevSprint program! If you are looking for resume-building developer experience with current tools in a low-stakes, collaborative, constructive, and growth-centered environment, this is the place for you! Working on a 4-week rotation between projects and workshops, students will have the opportunity to build and present up to 3 unique, 2-week-long projects. Our first program meeting is this upcoming Wednesday after the ACM Meeting on September 10th. Hope to see you there learning, building, and failing with style B)
 
 ## Sprint Prompt
-- The client is asking for a new feature for their music company. Here’s our stubs for a web-app that recommends songs.
+- The client is asking for a new feature for their music company. Attached are stubs for an example web-app project that recommends songs.
 
 ## Repository Layout
 - `src/index.html` — minimal HTML shell that loads the JavaScript modules.
