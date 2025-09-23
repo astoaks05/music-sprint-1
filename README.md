@@ -21,7 +21,7 @@
 3. Replace the sample data set with a live API or richer mock data as you iterate.
 
 ## Suggested Next Steps
-- Jot down 2-3 user stories in `docs/sprint-brief.md` that describe who needs recommendations and what “success” looks like for them.
+- Jot down 2-3 user stories in `docs/sprint-brief.md` that describe who needs recommendations and what “success” looks like for them. A user story is just a single sentence in plain language (e.g., "As a commuter, I want upbeat playlists so that my morning drive feels energizing.") that keeps the focus on the person using the app.
 - Sketch (paper is fine) the screens or states you expect: what does the app show before input, after recommendations, and after a like/skip?
 - Outline a simple recommendation approach (e.g., “match mood + genre”) and note open questions you need answered before coding.
 - Decide how you want to store preferences for now (keep `localStorage` or swap it) and list the pros/cons that matter to you.
