@@ -27,3 +27,19 @@
 - Outline a simple recommendation approach (e.g., “match mood + genre”) and note open questions you need answered before coding.
 - Decide how you want to store preferences for now (keep `localStorage` or swap it) and list the pros/cons that matter to you.
 - ***Pick one small improvement to build first*** and plan how you will test it manually.
+
+## Beginner-Friendly Resources
+- [MDN Web Docs — Getting started with the web](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web)
+- [Scrimba — Learn JavaScript for free](https://scrimba.com/learn/learnjavascript)
+- [freeCodeCamp — JavaScript Algorithms and Data Structures](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/)
+- [MDN — FormData API](https://developer.mozilla.org/en-US/docs/Web/API/FormData)
+- [MDN — addEventListener](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
+- [MDN — Working with objects](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects)
+- [MDN — Array methods guide](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Arrays)
+- [MDN — Using the Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+- [Web Dev Simplified — Fetch API basics (YouTube)](https://youtu.be/PoRJizFvM7s)
+- [MDN — Window.localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
+- [MDN — Template element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template)
+- [MDN — DocumentFragment](https://developer.mozilla.org/en-US/docs/Web/API/DocumentFragment)
+- [JavaScript.info — Modern JavaScript Tutorial](https://javascript.info/)
+- [Frontend Mentor — Newbie challenges](https://www.frontendmentor.io/challenges?difficulties=1)
