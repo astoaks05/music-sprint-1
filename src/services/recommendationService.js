@@ -1,3 +1,4 @@
+// Using the static library keeps the UI testable without depending on a backend.
 import { sampleLibrary } from "../data/sampleLibrary.js";
 
 /**
@@ -10,6 +11,7 @@ export function scoreTrack(track, preferences) {
 
   if (!preferences) return score;
 
+  // Start with very simple point boosts so the ranking feels responsive.
   if (preferences.mood && track.mood === preferences.mood) {
     score += 5;
   }
@@ -27,6 +29,8 @@ export function scoreTrack(track, preferences) {
     }
   }
 
+  // TODO: consider weighting artist familiarity, release year, etc., once data exists.
+
   return score;
 }
 
@@ -37,5 +41,6 @@ export async function getRecommendations(preferences) {
     .sort((a, b) => b.score - a.score)
     .slice(0, 5);
 
+  // TODO: expose pagination or load-more controls when the dataset grows.
   return scored.map((entry) => entry.track);
 }

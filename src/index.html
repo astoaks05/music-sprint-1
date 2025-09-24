@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <!-- TODO: inject dynamic copy or user state in the header once auth is ready. -->
     <header class="app-header">
       <h1>Song Recommendation Lab</h1>
       <p class="tagline">Stub workspace for the DevSprint music client feature.</p>
@@ -15,6 +16,7 @@
     <main class="layout">
       <section class="panel">
         <h2>User Preferences</h2>
+        <!-- This form mirrors the shape of the preferences object stored in localStorage. -->
         <form id="preferences-form">
           <label>
             Mood
@@ -42,6 +44,7 @@
     </main>
 
     <template id="recommendation-template">
+      <!-- TODO: expand the template with artwork and interaction states when assets arrive. -->
       <article class="recommendation-card">
         <header>
           <h3 data-field="title"></h3>

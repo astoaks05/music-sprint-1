@@ -1,3 +1,4 @@
+// TODO: replace this static stub with live catalog data once the API stabilizes.
 export const sampleLibrary = [
   {
     id: "track-001",

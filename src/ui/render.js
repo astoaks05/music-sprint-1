@@ -1,3 +1,4 @@
+// Cache the DOM nodes we need so rendering stays fast even with many updates.
 const recommendationsOutput = document.querySelector("#recommendations-output");
 const template = document.querySelector("#recommendation-template");
 
@@ -7,12 +8,14 @@ export function renderRecommendations(recommendations = []) {
   if (!recommendations.length) {
     recommendationsOutput.classList.add("recommendations-empty");
     recommendationsOutput.innerHTML = "<p>No recommendations yet. Adjust your filters and try again.</p>";
+    // TODO: swap the placeholder copy with onboarding tips once the product team supplies them.
     return;
   }
 
   recommendationsOutput.classList.remove("recommendations-empty");
   recommendationsOutput.innerHTML = "";
 
+  // DocumentFragment prevents layout thrashing while we build the cards.
   const fragment = document.createDocumentFragment();
 
   recommendations.forEach((track) => {
