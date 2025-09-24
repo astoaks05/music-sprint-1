@@ -1,7 +1,6 @@
-# Fall 2025 DevSprint StarterStubs
-# Sprint 1
-# Theme: Music 
-# StarterStubs: Song Recommendation Web App
+# Fall 2025 DevSprint StarterStubs: Sprint 1
+Theme: Music 
+StarterStubs: Song Recommendation Web App
 
 ## Program Context
 - ACM Introduces: the DevSprint program! If you are looking for resume-building developer experience with current tools in a low-stakes, collaborative, constructive, and growth-centered environment, this is the place for you! Working on a 4-week rotation between projects and workshops, students will have the opportunity to build and present up to 3 unique, 2-week-long projects. Hope to see you there learning, building, and failing with style 😎
