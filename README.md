@@ -17,15 +17,16 @@
 - `docs/sprint-brief.md` — condensed copy of the description and prompt plus tasks to tackle next.
 
 ## Getting Started
-1. **Get the files onto your computer.** Click the green `<> Code` button on GitHub, choose "Download ZIP", and unzip it somewhere easy to find (e.g., your Desktop). Alternatively, if you already know Git, clone the repo instead.
-2. **Install a friendly code editor.** [VS Code](https://code.visualstudio.com/) is free and works on macOS, Windows, and Linux. Install it if you don't already have a preferred editor.
-3. **Open the project folder.** Launch your editor, pick `File → Open Folder…`, and select the unzipped `studious-spoon` directory. You should now see the `src`, `docs`, and other folders in the sidebar.
-4. **Preview the starter app.**
+1. **Star and fork the repo.** On GitHub, click ⭐ "Star" to bookmark the project and hit "Fork" so you can push changes to your own copy.
+2. **Get the files onto your computer.** Click the green `<> Code` button on GitHub, choose "Download ZIP", and unzip it somewhere easy to find (e.g., your Desktop). Alternatively, if you already know Git, clone the repo instead.
+3. **Install a friendly code editor.** [VS Code](https://code.visualstudio.com/) is free and works on macOS, Windows, and Linux. Install it if you don't already have a preferred editor.
+4. **Open the project folder.** Launch your editor, pick `File → Open Folder…`, and select the unzipped `studious-spoon` directory. You should now see the `src`, `docs`, and other folders in the sidebar.
+5. **Preview the starter app.**
    - Easiest: drag `src/index.html` into a modern browser (Chrome, Edge, Firefox, Safari) and the stub UI will render immediately.
    - Recommended: install the "Live Server" extension in VS Code, then click "Go Live" to auto-refresh when files change. This avoids manual refreshes.
-5. **Skim the TODOs.** Every file already contains `TODO:` markers and short comments. Start with `src/main.js` and `src/services/*` to understand where you can plug in your ideas.
-6. **Edit one thing at a time.** Make a tiny change (for example, tweak the sample data in `src/data/sampleLibrary.js`), flip back to the browser, and confirm the result. This builds confidence as you go.
-7. **Document your progress.** Use `docs/sprint-brief.md` to note what you tried, what worked, and what you'd like to improve next.
+6. **Skim the TODOs.** Every file already contains `TODO:` markers and short comments. Start with `src/main.js` and `src/services/*` to understand where you can plug in your ideas.
+7. **Edit one thing at a time.** Make a tiny change (for example, tweak the sample data in `src/data/sampleLibrary.js`), flip back to the browser, and confirm the result. This builds confidence as you go.
+8. **Document your progress.** Use `docs/sprint-brief.md` to note what you tried, what worked, and what you'd like to improve next.
 
 ## Suggested Next Steps
 - Jot down 2-3 user stories in `docs/sprint-brief.md` that describe who needs recommendations and what “success” looks like for them. A user story is just a single sentence in plain language (e.g., "As a commuter, I want upbeat playlists so that my morning drive feels energizing.") that has the focus on the person using the app/program.
