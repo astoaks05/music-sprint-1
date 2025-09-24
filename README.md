@@ -27,8 +27,6 @@
 6. **Edit one thing at a time.** Make a tiny change (for example, tweak the sample data in `src/data/sampleLibrary.js`), flip back to the browser, and confirm the result. This builds confidence as you go.
 7. **Document your progress.** Use `docs/sprint-brief.md` to note what you tried, what worked, and what you'd like to improve next.
 
-> TODO: Record a short screen capture that walks through these steps for visual learners.
-
 ## Suggested Next Steps
 - Jot down 2-3 user stories in `docs/sprint-brief.md` that describe who needs recommendations and what “success” looks like for them. A user story is just a single sentence in plain language (e.g., "As a commuter, I want upbeat playlists so that my morning drive feels energizing.") that has the focus on the person using the app/program.
 - Sketch (paper is fine) the screens or states you expect: what does the app show before input, after recommendations, and after a like/skip?
