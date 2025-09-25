@@ -2,11 +2,11 @@
 export const sampleLibrary = [
   {
     id: "track-001",
-    title: "Nebula Dreams",
-    artist: "Astra",
-    genre: "Lo-fi",
+    title: "Delta 8",
+    artist: "Stoaks",
+    genre: "Rap",
     mood: "chill",
-    tempo: 72,
+    tempo: 144,
   },
   {
     id: "track-002",

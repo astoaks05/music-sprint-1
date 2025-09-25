@@ -19,3 +19,11 @@ Your client is asking for a new feature for their music company. Attached are st
 - Documentation explains how the recommendations are generated.
 
 Update this brief as your sprint evolves.
+
+### User Stories
+
+As a potential fan, I'm looking for specific Stoaks songs that adhere to my musical preferences 
+
+As an average music listener I want to be able to type in a song I like and get reccomendations for Stoaks songs I might like instead
+
+As a newbie to the Stoaks scene I want some good first songs to listen to (default reccomendations)
