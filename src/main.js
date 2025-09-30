@@ -5,6 +5,30 @@ import { renderRecommendations } from "./ui/render.js";
 // Cache the form once so we do not keep querying the DOM on every submit.
 const form = document.querySelector("#preferences-form");
 
+const base = 'https://www.theaudiodb.com/api/v1/json'
+const apiKey = '123'
+
+async function getMacMillerData() {
+  try {
+    
+    const response = await fetch(`${base}/${apiKey}/search.php?s=Mac%20%Miller`);
+
+    // Check if the request was successful (status code 200-299)
+    if (!response.ok) {
+      throw new Error(`HTTP error! Status: ${response.status}`);
+    }
+
+    const data = await response.json();
+
+    console.log(data);
+
+  } catch (error) {
+    console.error('Could not fetch data:', error);
+  }
+}
+
+getMacMillerData();
+
 /**
  * Copy previously saved values back into the form controls.
  * TODO: Extend this once new preference fields are added to the UI.
