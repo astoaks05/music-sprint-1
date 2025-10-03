@@ -7,11 +7,12 @@ const form = document.querySelector("#preferences-form");
 
 const base = 'https://www.theaudiodb.com/api/v1/json'
 const apiKey = '123'
+const artist = prompt('Which artist would you like to search for?')
 
 async function getMacMillerData() {
   try {
     
-    const response = await fetch(`${base}/${apiKey}/search.php?s=Mac%20%Miller`);
+    const response = await fetch(`${base}/${apiKey}/search.php?s=${artist}`);
 
     // Check if the request was successful (status code 200-299)
     if (!response.ok) {
