@@ -9,10 +9,10 @@ const base = 'https://www.theaudiodb.com/api/v1/json'
 const apiKey = '123'
 const artist = prompt('Which artist would you like to search for?')
 
-async function getMacMillerData() {
+async function getArtistTopTracks() {
   try {
     
-    const response = await fetch(`${base}/${apiKey}/search.php?s=${artist}`);
+    const response = await fetch(`${base}/${apiKey}/track-top10.php?s=${artist}`);
 
     // Check if the request was successful (status code 200-299)
     if (!response.ok) {
@@ -20,15 +20,17 @@ async function getMacMillerData() {
     }
 
     const data = await response.json();
-
-    console.log(data);
+  
+    for(let i = 0; i <= data.track.length; i++) {
+      console.log(data.track[i].strTrack)
+    }
 
   } catch (error) {
     console.error('Could not fetch data:', error);
   }
 }
+getArtistTopTracks();
 
-getMacMillerData();
 
 /**
  * Copy previously saved values back into the form controls.
